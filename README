@@ -5,12 +5,9 @@ Please see the corresponding sections below for details.
 Dependencies
 ============
 
-  URI: <first dependency>
-  branch: <branch name>
-
-  URI: <second dependency>
-  branch: <branch name>
-
+* URI: git://git.yoctoproject.org/poky
+  * branch: kirkstone
+  * revision: HEAD
   .
   .
   .
@@ -21,7 +18,7 @@ Patches
 Please submit any patches against the meta-gorri layer to the xxxx mailing list (xxxx@zzzz.org)
 and cc: the maintainer:
 
-Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
+Maintainer: GAUTAM SONTU <sontugautam10@gmail.com>
 
 Table of Contents
 =================
@@ -38,4 +35,4 @@ Run 'bitbake-layers add-layer meta-gorri'
 II. Misc
 ========
 
---- replace with specific information about the meta-gorri layer ---
+GORRI OS = BLE + MQTT + Dashboard + Cloud + Remote Access + OTA
